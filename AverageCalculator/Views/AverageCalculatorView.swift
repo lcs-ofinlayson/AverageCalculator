@@ -11,12 +11,12 @@ struct AverageCalculatorView: View {
     
         var body: some View {
             
-            VStack{
+            NavigationView {
+                       Text("Will hold calculation interface soon")
+                           .navigationTitle("Average Calculator")
                 
-                Text("Average Calculator")
-              
-                Spacer()
-                    .padding()
+                
+                
             }
         }
     }
